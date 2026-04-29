@@ -1,0 +1,27 @@
+{
+  "inventory": {
+    "smartphones": {
+      "samsung":[
+        {"model": "Galaxy S26 Ultra",
+          "price":  1299,
+          "specs":  "Snapdragon 8 gen 5, 12GB RAM, 200MP Camera" },
+        {"model":  "Galaxy S26",
+          "price": 949,
+          "specs":  "Snapdragon 8 gen 5, 8GB RAM, 50MP Camera"}
+      ],
+      "apple": [
+        {"model":  "iPhone 17 Pro Max",
+          "price":  1399,
+          "specs":  "A19 Bionic,8GB RAM, 48MP Camera"}
+
+      ]
+    },
+    "wearables": {
+      "samsung": [
+        {"model": "Galaxy Watch Ultra",
+          "price": 679,
+          "specs":  "Titanium Case, 100h Battery"}
+      ]
+    }
+  }
+}

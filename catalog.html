@@ -108,10 +108,52 @@
         </div>
     </section>
 </main>
+<!-- bottom part  -->
 <footer>
     <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">FOOTER SECTION</div>
+            <div class="footer-section">FOOTER SECTION</div>
+            <div class="footer-section">FOOTER SECTION</div>
+        </div>
         <p>Created by Ihor Harkusha</p>
     </div>
 </footer>
+
+
+
+<!-- Section container for AJAX device specifications-->
+<!-- user has to press button "load" and specs will load from JSON file -->
+<section class="container ajax-section">
+    <!-- section title -->
+    <h2>Device Specs</h2>
+
+    <!-- button for loading data from JSON -->
+    <button id="loadSpecsBtn" class="btn-send">Load form JSON</button>
+
+    <!-- Container with table -->
+    <div id="tableContainer" style="margin-top: 20px; display: none;">
+        <!-- Table with specifications -->
+        <table id="specTable" style="width: 100%; border-collapse: collapse;">
+
+            <!-- Table header-->
+            <thead>
+            <tr style="background-color: #eee;">
+                <!--colums-->
+            <th>Category</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Price</th>
+            <th>Specs</th>
+            </tr>
+            </thead>
+
+            <!-- Table body will be filled dynamicalyy due to javascript -->
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+</section>
+<!-- javascrip file that handles logic -->
+<script src="ajax-script.js"></script>
 </body>
 </html>
