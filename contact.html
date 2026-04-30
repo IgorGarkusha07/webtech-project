@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- makes site comfortable for different devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberVerse | Contact us </title>
+    <!-- connect css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header with menu -->
         <header>
+            <!-- navigation -->
             <nav class="container">
                 <div class="logo">CyberVerse</div>
                 <ul class="nav-links">
@@ -20,12 +24,22 @@
                 </ul>
             </nav>
         </header>
+
+    <!-- Main content -->
         <main class="container">
             <h1>Contact Us</h1>
+            <!-- contact grid layout -->
             <div class="contact-grid">
+
+                <!-- left side with map -->
                 <div class="contact-left">
-                    <div class="map-placeholder">MAP</div>
+                    <div class="map-placeholder">
+                        <!-- static map image -->
+                        <img  class="static-map" src="https://data.oma.sk/img/bod/bratislava.oma.sk-u-tomasikova-20.jpg" alt="Our Location">
+                    </div>
                 </div>
+
+                <!-- addres section -->
                 <div class="addres-box">
                     <h3>Addres</h3>
                     <p>Tomášikova 20, 821 02 Bratislava, SLovakia<br>
@@ -33,22 +47,27 @@
                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
+                <!-- Right side with contact form -->
             </div>
             <div class="contact-right">
                 <div class="letter-box">
                     <h3>Letter</h3>
 
+                    <!-- contact form -->
                 <form id="contactForm" class="main-form">
+
+                    <!-- Name input -->
                     <div class="form-group">
                         <label for="fullName">Full Name:</label>
                         <input type="text" id="fullName" name="fullName" placeholder="Enter your Full Name" required>
                     </div>
-
+                    <!-- email input -->
                     <div class="form-group">
                         <label for="userEmail">Email:</label>
                         <input type="email" id="userEmail" name="userEmail" placeholder="email@example.com" required>
                     </div>
 
+                    <!-- select subject for letter -->
                     <div class="form-group">
                         <label for="subject">Subject:</label>
                         <select id="subject" name="subject">
@@ -59,11 +78,15 @@
                             <option value="suggestions">Suggestions</option>
                         </select>
                     </div>
+
+                    <!-- area for message -->
                     <div class="form-group">
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" rows="6" placeholder="Enter your Message Here" required></textarea>
                     </div>
-                    <div class="form-group checkbox-group">
+
+                    <!-- terms checkbox -->
+                    <div class="form-group-checkbox-group">
                         <input type="checkbox" id="terms" name="terms">
                         <label for="terms">I agree to the Terms and Conditions</label>
                     </div>
@@ -73,6 +96,8 @@
             </div>
 
         </main>
+
+    <!-- bottom part -->
         <footer>
             <div class="container">
                 <div class="footer-content">
