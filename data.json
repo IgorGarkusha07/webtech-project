@@ -12,15 +12,26 @@
       "apple": [
         {"model":  "iPhone 17 Pro Max",
           "price":  1399,
-          "specs":  "A19 Bionic,8GB RAM, 48MP Camera"}
+          "specs":  "A19 Bionic,8GB RAM, 48MP Camera"},
+        {"model":  "iPhone 17",
+          "price": 750,
+          "specs": "A19 Bionic, 8GB RAM, 48MP Camera"
+        }
 
       ]
     },
-    "wearables": {
+    "watches": {
       "samsung": [
         {"model": "Galaxy Watch Ultra",
           "price": 679,
           "specs":  "Titanium Case, 100h Battery"}
+      ],
+      "apple":[
+        {
+          "model": "Apple Watch Ultra",
+          "price": 899,
+          "specs": "Retina Display, Depth gauge"
+        }
       ]
     }
   }
